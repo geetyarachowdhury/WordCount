@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Word</title>
+    <style>
+        .text {
+            display: block;
+            width: 40%;
+            margin: 50px auto;
+            text-align: center;
+        }
+        body {
+            background-color: #feffde;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .ans {
+            color: #52734d;
+            font-size: 1.4rem;
+            font-weight: bold;
+            line-height: 0.7;
+        }
+        .count {
+            color: #f25287;
+        }
+        h1 {
+            color: #ffaaa7;
+        }
+        #textareabox {
+            background-color: rgba(255, 255, 255, 0.514);
+            border: 1px solid #e2bcb7;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .btn {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 13px;
+            background-color: #91c788;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>Word Counter</h1>
+        <textarea id="textareabox" name="textarea1" cols="50" rows="15" placeholder="Start here..."></textarea> <br>
+        <input class="btn" type="button" value="Count" onclick="getText()" />
+    </div>
+    <div class="text ans" id="res"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
