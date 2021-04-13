@@ -1,2 +1,3 @@
 # WordCount
-![Screenshot (294)](https://user-images.githubusercontent.com/48794525/114523378-ddb01f80-9c61-11eb-81b1-1895f8d86750.png)
+![Screenshot (296)](https://user-images.githubusercontent.com/48794525/114523749-354e8b00-9c62-11eb-9b14-4f65f51f6d0d.png)
+
